@@ -1,0 +1,11 @@
+l=[("Darshit", "Devang","Harshit"), "Ragi", "Aashna", "Priya", ("Het",)]
+b=[]
+g=[]
+for i in l:
+    if isinstance(i, tuple):
+        b.extend(i)
+    else:
+        g.append(i)
+        
+print("no. of boys= ", len(b))
+print("no. of girls= ", len(g))
