@@ -1,0 +1,10 @@
+a=int(input("enter the age"))
+
+def age(a):
+    if a>=18:
+        print("major")
+    else:
+        print("minor")
+
+age(a)
+    
